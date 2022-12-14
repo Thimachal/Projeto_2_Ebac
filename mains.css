@@ -38,5 +38,5 @@ form button{
     font-size: 24px;
     font-weight: bold;  
     border: none;  
-    
+    cursor: pointer;
 }
