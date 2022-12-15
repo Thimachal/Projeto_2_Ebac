@@ -73,3 +73,7 @@ table td{
     text-align: center;
     font-size: 18px;
 }
+
+table td img{
+    height: 30px;
+}
