@@ -32,6 +32,10 @@ header h1{
     margin: 0 auto;
 }
 
+form input{
+    
+}
+
 form button{
     background-color: #009432;
     color: #fff;
