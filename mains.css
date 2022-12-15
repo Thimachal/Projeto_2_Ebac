@@ -47,4 +47,5 @@ form button{
     font-weight: bold;  
     border: none;  
     cursor: pointer;
+    padding: 8x;
 }
