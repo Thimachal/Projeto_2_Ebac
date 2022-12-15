@@ -58,6 +58,10 @@ form button{
     padding: 8x;
 }
 
+table{
+    width: 100%;
+}
+
 table th{
     border-bottom: 2px solid #000;
     padding: 16px;
