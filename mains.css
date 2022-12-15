@@ -57,3 +57,8 @@ form button{
     cursor: pointer;
     padding: 8x;
 }
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+}
