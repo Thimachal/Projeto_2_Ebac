@@ -70,5 +70,6 @@ table th{
 }
 
 table td{
-    
+    text-align: center;
+    font-size: 18px;
 }
