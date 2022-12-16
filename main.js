@@ -1,2 +1,2 @@
 const form = document.getElementById('form-atividade');
-form
+form.addEventListener('submit')
