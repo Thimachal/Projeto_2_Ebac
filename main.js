@@ -4,6 +4,6 @@ form.addEventListener('submit', function (e) {
 
     const inputNomeAtividade = document.getElementById('nome-atividade');
     const inputNotaAtividade = document.getElementById('nota-atividade');
-    alert(`Atividade: ${inputNomeAtividade} - Nota ${inputNotaAtividade}`)
+    alert(`Atividade: ${inputNomeAtividade.value} - Nota ${inputNotaAtividade.value}`)
 
 })
