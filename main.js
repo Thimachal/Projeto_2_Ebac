@@ -11,6 +11,7 @@ linha+=`<td>${inputNotaAtividade.value}</td>`;
 linha+=`<td>${inputNotaAtividade.value >=7 ? 'Aprovado' : 'Reprovado'}</td>`;
 linha+='</tr>';
 
+const corpoTabela = document.querySelector('tbody');
 
 
     alert(`Atividade: ${inputNomeAtividade.value} - Nota ${inputNotaAtividade.value}`)
