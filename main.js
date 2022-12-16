@@ -5,16 +5,16 @@ form.addEventListener('submit', function (e) {
     const inputNomeAtividade = document.getElementById('nome-atividade');
     const inputNotaAtividade = document.getElementById('nota-atividade');
 
-let linha = '<tr>';
-linha+=`<td>${inputNomeAtividade.value}</td>`;
-linha+=`<td>${inputNotaAtividade.value}</td>`;
-linha+=`<td>${inputNotaAtividade.value >=7 ? 'Aprovado' : 'Reprovado'}</td>`;
-linha+='</tr>';
+    let linhas = '';
 
-const corpoTabela = document.querySelector('tbody');
-corpoTabela.innerHTML = linha;
+    let linha = '<tr>';
+    linha += `<td>${inputNomeAtividade.value}</td>`;
+    linha += `<td>${inputNotaAtividade.value}</td>`;
+    linha += `<td>${inputNotaAtividade.value >= 7 ? 'Aprovado' : 'Reprovado'}</td>`;
+    linha += '</tr>';
 
+    linhas += linha;
 
-    alert(`Atividade: ${inputNomeAtividade.value} - Nota ${inputNotaAtividade.value}`)
-
+    const corpoTabela = document.querySelector('tbody');
+    corpoTabela.innerHTML = linhas;
 });
