@@ -6,4 +6,4 @@ form.addEventListener('submit', function (e) {
     const inputNotaAtividade = document.getElementById('nota-atividade');
     alert(`Atividade: ${inputNomeAtividade.value} - Nota ${inputNotaAtividade.value}`)
 
-})
+});
