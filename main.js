@@ -8,6 +8,7 @@ form.addEventListener('submit', function (e) {
 let linha = '<tr>';
 linha+=`<td>${inputNomeAtividade.value}</td>`;
 linha+=`<td>${inputNotaAtividade.value}</td>`;
+linha+=`<td>${}</td>`;
 
 
 
