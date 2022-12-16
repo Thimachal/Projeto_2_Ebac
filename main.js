@@ -9,6 +9,7 @@ let linha = '<tr>';
 linha+=`<td>${inputNomeAtividade.value}</td>`;
 linha+=`<td>${inputNotaAtividade.value}</td>`;
 linha+=`<td>${}</td>`;
+linha+='</tr>';
 
 
 
