@@ -4,6 +4,12 @@ form.addEventListener('submit', function (e) {
 
     const inputNomeAtividade = document.getElementById('nome-atividade');
     const inputNotaAtividade = document.getElementById('nota-atividade');
+
+let linha = '<tr>';
+linha+=`<td>${inputNomeAtividade.value}</td>`;
+
+
+
     alert(`Atividade: ${inputNomeAtividade.value} - Nota ${inputNotaAtividade.value}`)
 
 });
