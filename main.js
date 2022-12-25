@@ -33,3 +33,8 @@ function adicionaLinha(){
     inputNomeAtividade.value ='';
     inputNotaAtividade.value ='';
 };
+
+
+function atualizaTabela(){
+    
+}
