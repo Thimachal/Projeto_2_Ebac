@@ -41,5 +41,6 @@ function atualizaTabela() {
 }
 
 function atualizaMediaFinal() {
-    
+    console.log(atividades);
+    console
 }
