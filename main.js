@@ -41,6 +41,7 @@ function atualizaTabela() {
 }
 
 function atualizaMediaFinal() {
+    const mediaFinal = calculaMediaFinal();
     calculaMediaFinal();
 }
 
