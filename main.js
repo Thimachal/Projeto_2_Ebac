@@ -45,7 +45,7 @@ function atualizaMediaFinal() {
     calculaMediaFinal();
 }
 
-function calculaMediaFinal{
+function calculaMediaFinal (){
     let somaNotas = 0;
     for (let i = 0; i < notas.length; i++) {
         somaNotas += notas[i];
