@@ -45,7 +45,7 @@ function atualizaTabela() {
 function atualizaMediaFinal() {
     let somaNotas = 0;
     for (let i=0; i <notas.length; i++){
-        somaNotas =;
+        somaNotas += notas[i];
     }
 
 }
