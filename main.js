@@ -42,7 +42,9 @@ function atualizaTabela() {
 
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal();
-    calculaMediaFinal();
+    
+    document.getElementById('media-final-valor');
+
 }
 
 function calculaMediaFinal (){
