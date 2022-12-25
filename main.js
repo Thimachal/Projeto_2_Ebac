@@ -9,7 +9,7 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 
     adicionaLinha();
-
+    atualizaTabela();
 });
 
 function adicionaLinha() {
