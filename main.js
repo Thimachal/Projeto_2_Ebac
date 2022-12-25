@@ -45,6 +45,8 @@ function atualizaMediaFinal() {
     
     document.getElementById('media-final-valor').innerHTML = mediaFinal;
 
+    document.getElementById('media-finalresultado').innerHTML = mediaFinal >= 7 ? 'Aprovado':'Reprovado';
+
 }
 
 function calculaMediaFinal (){
