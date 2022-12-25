@@ -8,6 +8,10 @@ let linhas = '';
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
+});
+
+function adicionaLinha(){
+
     const inputNomeAtividade = document.getElementById('nome-atividade');
     const inputNotaAtividade = document.getElementById('nota-atividade');
 
@@ -26,8 +30,4 @@ form.addEventListener('submit', function (e) {
 
     inputNomeAtividade.value ='';
     inputNotaAtividade.value ='';
-});
-
-function adicionaLinha(){
-    
-}
+};
