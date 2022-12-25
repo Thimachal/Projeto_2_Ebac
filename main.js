@@ -19,8 +19,8 @@ function adicionaLinha() {
     const inputNomeAtividade = document.getElementById('nome-atividade');
     const inputNotaAtividade = document.getElementById('nota-atividade');
 
-    atividades.push(parseFloatinputNomeAtividade.value);
-    notas.push(parseFloat(inputNomeAtividade.value));
+    atividades.push(inputNomeAtividade.value);
+    notas.push(parseFloat(inputNotaAtividade.value));
 
     let linha = '<tr>';
     linha += `<td>${inputNomeAtividade.value}</td>`;
@@ -40,10 +40,10 @@ function atualizaTabela() {
     corpoTabela.innerHTML = linhas;
 }
 
-function atualizaMediaFinal() {
+/*function atualizaMediaFinal() {
     let somaNotas = 0;
     for (let i=0; i <notas.length; i++){
         somaNotas += notas[i];
     }
 
-}
+}*/
