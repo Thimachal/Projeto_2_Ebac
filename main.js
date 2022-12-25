@@ -46,4 +46,6 @@ function atualizaMediaFinal() {
         somaNotas += notas[i];
     }
 
+
+    const media = somaNotas/ notas.length;
 }
