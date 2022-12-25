@@ -13,6 +13,7 @@ form.addEventListener('submit', function (e) {
 
     adicionaLinha();
     atualizaTabela();
+    atualizaMediaFinal();
 });
 
 function adicionaLinha() {
