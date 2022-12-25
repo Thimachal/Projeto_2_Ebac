@@ -40,10 +40,10 @@ function atualizaTabela() {
     corpoTabela.innerHTML = linhas;
 }
 
-/*function atualizaMediaFinal() {
+function atualizaMediaFinal() {
     let somaNotas = 0;
     for (let i=0; i <notas.length; i++){
         somaNotas += notas[i];
     }
 
-}*/
+}
