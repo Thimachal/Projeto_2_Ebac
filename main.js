@@ -39,3 +39,7 @@ function atualizaTabela() {
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
 }
+
+function atualizaMediaFinal() {
+    
+}
