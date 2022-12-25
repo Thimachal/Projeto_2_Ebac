@@ -27,3 +27,7 @@ form.addEventListener('submit', function (e) {
     inputNomeAtividade.value ='';
     inputNotaAtividade.value ='';
 });
+
+function adicionaLinha(){
+    
+}
