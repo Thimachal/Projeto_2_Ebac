@@ -43,7 +43,7 @@ function atualizaTabela() {
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal();
     
-    document.getElementById('media-final-valor');
+    document.getElementById('media-final-valor').innerHTML = mediaFinal;
 
 }
 
