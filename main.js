@@ -41,11 +41,14 @@ function atualizaTabela() {
 }
 
 function atualizaMediaFinal() {
+    calculaMediaFinal();
+}
+
+function calculaMediaFinal{
     let somaNotas = 0;
-    for (let i=0; i <notas.length; i++){
+    for (let i = 0; i < notas.length; i++) {
         somaNotas += notas[i];
     }
 
-
-    const media = somaNotas/ notas.length;
+    const media = somaNotas / notas.length;
 }
