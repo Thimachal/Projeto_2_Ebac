@@ -43,6 +43,9 @@ function atualizaTabela() {
 }
 
 function atualizaMediaFinal() {
-    console.log(atividades);
-    console
+    let somaNotas = 0;
+    for (let i=0; i <notas.length; i++){
+        somaNotas =;
+    }
+
 }
